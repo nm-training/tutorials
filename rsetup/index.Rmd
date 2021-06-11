@@ -45,11 +45,30 @@ Open RStudio > Go to R console > Copy/paste following codes.
 
 You may watch video below about how to install R packages:
 
-
-
  <video width="720" height="480" controls>
       <source src="rsetup-install.mp4" type=video/mp4>
     </video>
+
+
+## 5. Solve R Package Install Path Problem
+
+<iframe width="720" height="480" src="https://www.youtube.com/embed/v5fFNwDCoLE" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+#### Steps to follow:
+
+1. Search > Advanced System Settings
+2. Click Environment Variables
+3. Add following based on your system:
+
+```{r eval = F}
+Name: R_LIBS_USER
+
+Value: C:\Users\Username\Documents\R\win-library
+```
+
+
+**Note: Set Username same as your actual computer username.**
+
 
 
 
