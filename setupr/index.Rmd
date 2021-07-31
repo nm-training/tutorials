@@ -1,0 +1,57 @@
+---
+title: "RSetups Installations"
+output:
+   rmdformats::robobook:
+    self_contained: false
+    thumbnails: true
+    lightbox: true
+    gallery: false
+    highlight: tango
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<style>code {color: #000000 !important;} </style>
+
+
+## Step 1. Install R v4.1.0
+
+Please, download the latest R version based on the system you use.
+
+-   [Download R for Windows](https://cran.r-project.org/bin/windows/base/)
+
+-   [Download R for Linux](https://cran.r-project.org/bin/linux/)
+
+-   [Download R for macOS](https://cran.r-project.org/bin/macosx/)
+
+## Step 2. Install RStudio 
+
+After downloading R, please download RStudio from following link.
+
+-   [Download RStudio](https://www.rstudio.com/products/rstudio/download/#download)
+
+## Step 3. Install Rtools4 (Skip if you are not Windows user)
+
+Only for Windows users, you need to install Rtools4 to install packages required in training. 
+
+-   [Download Rtools4](https://cran.r-project.org/bin/windows/Rtools/)
+
+## Step 4. Install R packages
+
+Open RStudio > Go to R console > Copy/paste following codes.
+
+`install.packages("devtools");`
+
+`devtools::install_github("nm-training/rsetup");`
+
+
+<iframe width="768" height="480" src="https://www.youtube.com/embed/u1r5XTqrCTQ?start=130&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+
+
+
+
