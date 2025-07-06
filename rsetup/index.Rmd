@@ -17,30 +17,36 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Please, download the latest R version based on the system you use.
 
--   [Download R for Windows](https://cran.r-project.org/bin/windows/base/R-4.5.1-win.exe)
+-   [**Download R for Windows**](https://cran.r-project.org/bin/windows/base/){target="_blank"}
 
--   [Download R for Linux](https://cran.r-project.org/bin/linux/)
+-   [**Download R for Linux**](https://cran.r-project.org/bin/linux/){target="_blank"}
 
--   [Download R for macOS](https://cran.r-project.org/bin/macosx/)
+-   [**Download R for macOS**](https://cran.r-project.org/bin/macosx/){target="_blank"}
 
 ## 2. Install RStudio (Latest)
 
 After downloading R, please download RStudio from following link.
 
--   [Download RStudio](https://www.rstudio.com/products/rstudio/download/#download)
+-   [**Download RStudio**](https://www.rstudio.com/products/rstudio/download/#download){target="_blank"}
 
-## 4. Install R packages (Optional)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mxNrU902uyc?si=HnuBuBBYZWHmLXC9&amp;start=33" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
 
-Please, install following packages only if you're able to. 
+</iframe>
 
-For this, Open RStudio > Go to R console > Copy/paste following two codes.
+## 3. Install R packages
 
-`install.packages("remotes");`
+Please, install following packages only if you're able to.
 
-`remotes::install_github("bjungbogati/rsetup");`
+For this, Open RStudio \> Go to R console \> Copy/paste following codes.
 
+```         
 
+install.packages("remotes"); remotes::install_github("bjungbogati/rsetup");
 
+```
 
+![](images/image.png){width="100%"}
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UZdD94p5SRQ?si=d_INAENazSZoA9mG&amp;start=4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
 
+</iframe>
