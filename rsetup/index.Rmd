@@ -29,17 +29,37 @@ After downloading R, please download RStudio from following link.
 
 -   [**Download RStudio**](https://www.rstudio.com/products/rstudio/download/#download){target="_blank"}
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mxNrU902uyc?si=HnuBuBBYZWHmLXC9&amp;start=33" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/mxNrU902uyc?si=HnuBuBBYZWHmLXC9&amp;start=33" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen> -->
 
-</iframe>
+<!-- </iframe> -->
 
 ## 3. Install R Tools 4.5 (Only for Windows User)
 
-<https://cran.r-project.org/bin/windows/Rtools/rtools45/files/rtools45-6608-6492.exe>
+- [**Download R Tools**](https://cran.r-project.org/bin/windows/Rtools/rtools45/files/rtools45-6608-6492.exe){target="_blank"}
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/68vfSs5y8mo?si=3hVpepdouxWpMa58&amp;start=31&amp;end=322" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-
+<iframe id="ytplayer" width="560" height="315" 
+  src="https://www.youtube.com/embed/-34LrUxuf1A?start=31&autoplay=1"
+  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
 </iframe>
+
+<script>
+  var player;
+  function onYouTubeIframeAPIReady() {
+    player = new YT.Player('ytplayer', {
+      events: {
+        'onStateChange': onPlayerStateChange
+      }
+    });
+  }
+
+  function onPlayerStateChange(event) {
+    if (event.data == YT.PlayerState.PLAYING) {
+      setTimeout(() => player.stopVideo(), (322 - 31) * 1000);
+    }
+  }
+</script>
+<script src="https://www.youtube.com/iframe_api"></script>
+
 
 ## 3. Install R packages
 
