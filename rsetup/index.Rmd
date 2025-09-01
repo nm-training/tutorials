@@ -37,28 +37,7 @@ After downloading R, please download RStudio from following link.
 
 - [**Download R Tools**](https://cran.r-project.org/bin/windows/Rtools/rtools45/files/rtools45-6608-6492.exe){target="_blank"}
 
-<iframe id="ytplayer" width="560" height="315" 
-  src="https://www.youtube.com/embed/-34LrUxuf1A?start=31&autoplay=1"
-  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
-</iframe>
-
-<script>
-  var player;
-  function onYouTubeIframeAPIReady() {
-    player = new YT.Player('ytplayer', {
-      events: {
-        'onStateChange': onPlayerStateChange
-      }
-    });
-  }
-
-  function onPlayerStateChange(event) {
-    if (event.data == YT.PlayerState.PLAYING) {
-      setTimeout(() => player.stopVideo(), (322 - 31) * 1000);
-    }
-  }
-</script>
-<script src="https://www.youtube.com/iframe_api"></script>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Sv2BMAGe2fE?si=cIjK9p6sw9ZR3n8D&amp;start=143" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 ## 3. Install R packages
