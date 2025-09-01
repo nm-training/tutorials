@@ -33,6 +33,14 @@ After downloading R, please download RStudio from following link.
 
 </iframe>
 
+## 3. Install R Tools 4.5 (Only for Windows User)
+
+<https://cran.r-project.org/bin/windows/Rtools/rtools45/files/rtools45-6608-6492.exe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/68vfSs5y8mo?si=3hVpepdouxWpMa58&amp;start=31&amp;end=322" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+
+</iframe>
+
 ## 3. Install R packages
 
 Please, install following packages only if you're able to.
@@ -42,7 +50,6 @@ For this, Open RStudio \> Go to R console \> Copy/paste following codes.
 ```         
 
 install.packages("remotes"); remotes::install_github("bjungbogati/rsetup");
-
 ```
 
 ![](images/image.png){width="100%"}
